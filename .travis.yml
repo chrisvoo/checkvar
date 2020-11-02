@@ -1,7 +1,13 @@
+dist: bionic
+os: linux
 language: node_js
+node_js:
+  - lts/*
 branches:
   only:
   - main
+before_install:
+  - sudo apt-get update
 install:
   - npm install
 script:

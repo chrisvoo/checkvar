@@ -1,5 +1,7 @@
 # checkvar
 
+[![Build Status](https://travis-ci.org/chrisvoo/checkvar.svg?branch=main)](https://travis-ci.org/chrisvoo/checkvar)
+
 It checks if a variable is empty or not and returns `true` (not empty) or `false` (empty) accordingly. It also can return a `CheckResponse` type as response, which also includes the variable type.  
 
 ```typescrypt
