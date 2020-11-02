@@ -1,0 +1,44 @@
+{
+  "name": "tof",
+  "version": "1.0.0",
+  "description": "It checks if a variable is empty or not",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisvoo/checkvar.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.3",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [
+    "empty",
+    "truthy",
+    "falsy",
+    "length"
+  ],
+  "author": "Christian Castelli <voodoo81people@gmail.com> (https://github.com/chrisvoo)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chrisvoo/checkvar/issues"
+  },
+  "homepage": "https://github.com/chrisvoo/checkvar#readme"
+}
