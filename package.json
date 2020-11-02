@@ -1,5 +1,5 @@
 {
-  "name": "tof",
+  "name": "checkvar",
   "version": "1.0.0",
   "description": "It checks if a variable is empty or not",
   "main": "dist/index.js",
