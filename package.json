@@ -1,6 +1,6 @@
 {
   "name": "checkvar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It checks if a variable is empty or not",
   "main": "dist/index.js",
   "directories": {
@@ -10,6 +10,11 @@
     "/dist"
   ],
   "scripts": {
+    "clean": "rimraf dist/*",
+    "tsc": "tsc",
+    "build": "run-s clean tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "repository": {
